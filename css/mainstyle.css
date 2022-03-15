@@ -1,0 +1,191 @@
+@font-face {
+    font-family: PopinReg;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: PopinMed;
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: PopinSBold;
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+
+
+
+html{
+    font-size: 10px;
+}
+
+.contactlink{
+    width: 225px;
+}
+
+@media (max-width: 425px) {
+    .contactlink{
+        width: 225px;
+    }
+}
+
+.ext{
+    margin-left: 74px;
+}
+
+.phonenumber, .contactlinksnav1{
+    font-family: PopinReg;
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .phonenumber, .contactlinksnav1{
+        font-size: 1.4rem;
+    }
+}
+
+.nav-link-a{
+    display: block;
+    padding: 0.5rem 0rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+.phonenumber:hover{
+    color: #fff;
+}
+
+
+.contactlinksnav2{
+    font-family: PopinMed;
+    font-size: 2.2rem;
+    color: #000000;
+}
+
+@media (max-width: 1024px) {
+    .contactlinksnav2{
+        font-size: 1.8rem;
+    }
+}
+
+.navlogo{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navlogo2{
+    height: 60px;
+}
+
+@media (max-width: 360px) {
+    .valuelogo{
+        width: 192px;
+    }
+}
+
+.socialIcons{
+    font-size: 1.8rem;
+}
+
+
+.imageContainer{
+    position: relative;
+}
+.backgroundCont{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0,1));
+}
+.gradientColor{
+    width: 100%;
+    max-height: 676px;
+}
+
+.galleryText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    max-width: 1452px;
+}
+
+.galleryText p{
+    color: #FFFFFF;
+    font-family: PopinReg;
+    font-size: 5rem;
+}
+
+.galleryText h3{
+    font-family: PopinSBold;
+    font-size: 6.4rem;
+}
+
+
+@media (max-width: 425px) {
+    .galleryText p{
+        font-size: 1rem;
+    }
+    .galleryText h3{
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .galleryText p{
+        font-size: 1.5rem;
+    }
+    .galleryText h3{
+        font-size: 2.8rem;
+    }
+}   
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .galleryText p{
+        font-size: 2rem;
+    }
+    .galleryText h3{
+        font-size: 3.5rem;
+    }
+}
+
+
+
+
+.galleryContainer{
+    position: relative;
+}
+
+.form-trail{
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    transform: translate(-50%,-50%);
+    max-height: 206px;
+    height: 100px;
+    max-width: 1716px;
+    width: 90%;
+    background-color: red;
+}
+
+@media (max-width: 425px) {
+    .form-trail{
+        bottom: -60px;
+        height: 60px;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .form-trail{
+        bottom: -80px;
+        height: 80px;
+    }
+}   
