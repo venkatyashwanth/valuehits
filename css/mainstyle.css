@@ -498,3 +498,354 @@ html{
         line-height: 30px;
     }
 }   
+
+.vision{
+    background-color: #242424;
+}
+
+.mission{
+    background-color: #000000;
+}
+
+.visionHeading,.missionHeading{
+    font-family: PopinsLight;
+    font-size: 45px;
+}
+.visionPara,.missionPara{
+    font-family: PopinsExtraLight;
+    font-size: 22px;
+}
+
+
+.duplicateContleft {
+    width: 360px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    margin-left: auto;
+    text-align: end;
+}
+
+.duplicateContright {
+    width: 360px;
+    max-width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    text-align: start;
+}
+
+.mrow>* {
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+    margin-top: var(--bs-gutter-y);
+}
+
+
+@media (max-width: 575.98px) { 
+    .duplicateContleft {
+        width: 80%;
+        padding-right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .duplicateContright {
+        width: 80%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .visionHeading,.missionHeading{
+        font-size: 3.2rem;
+    }
+    .visionPara,.missionPara{
+        font-size: 1.2rem;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .duplicateContleft,.duplicateContright {
+        width: 80%;
+        padding-right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .visionHeading,.missionHeading{
+        font-size: 3.2rem;
+    }
+    .visionPara,.missionPara{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .duplicateContleft, .duplicateContright  {
+        width: 360px;
+    }
+    .visionHeading,.missionHeading{
+        font-size: 3.4rem;
+    }
+    .visionPara,.missionPara{
+        font-size: 1.4rem;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .duplicateContleft {
+        width: 480px;
+        
+    }
+    .duplicateContright {
+        width: 4800px;
+    }
+    .visionHeading,.missionHeading{
+        font-size: 3.6rem;
+    }
+    .visionPara,.missionPara{
+        font-size: 1.6rem;
+    }
+ }
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .duplicateContleft {
+        width: 560px;
+    }
+    .duplicateContright {
+        width: 560px;
+    }
+    .visionHeading,.missionHeading{
+        font-size: 3.8rem;
+    }
+    .visionPara,.missionPara{
+        font-size: 1.8rem;
+    }
+ }
+
+ @media (min-width: 1400px) { 
+    .duplicateContleft {
+        width: 660px;
+    }
+    .duplicateContright {
+        width: 660px;
+    }
+ }
+
+
+.clienteleSection{
+    background-color: rgba(110,123,136,0.06);
+    height: 600px;
+}
+
+.clienteleSection h3, p{
+    text-align: center;
+}
+.clienteleSection h3{
+    font-family: PopinMed;
+    font-size: 4.8rem;
+    padding-top: 90px;
+}
+.clienteleSection p{
+    font-family: PopinsLight;
+    font-size: 2.2rem;
+}
+
+.imgLogo{
+    width: 200px;
+    height: 120px;
+}
+
+.imgCont{
+    padding: 5px; 
+    background-color: white;
+    
+}
+
+/* 
+Responsive Breakpoints:- 
+
+@media (max-width: 575.98px){}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px){}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1400px){} 
+*/
+
+
+@media (max-width: 575.98px) { 
+    .clienteleSection{
+        height: 1650px;
+    }
+    .imgCont{
+        text-align: center;
+        padding: 28px;
+    }
+    .imgLogo{
+        width: 140px;
+        height: 80px;
+    }
+
+    .clienteleSection h3{
+        font-size: 4.2rem;
+    }
+    .clienteleSection p{
+        font-size: 1.2rem;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .clienteleSection{
+        height: 950px;
+    }
+
+    .imgCont{
+        text-align: center;
+        padding: 28px;
+    }
+    .imgLogo{
+        width: 140px;
+        height: 80px;
+    }
+    .clienteleSection h3{
+        font-size: 4.2rem;
+    }
+    .clienteleSection p{
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .clienteleSection{
+        height: 400px;
+    }
+
+    .imgLogo{
+        width: 130px;
+        height: 80px;
+    }
+    .imgCont{
+        padding: 0px; 
+    }
+
+    .clienteleSection h3{
+        font-size: 4.8rem;
+    }
+    .clienteleSection p{
+        font-size: 1.4rem;
+    }
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .clienteleSection{
+        height: 450px;
+    }
+    .imgLogo{
+        width: 140px;
+        height: 80px;
+    }
+    .imgCont{
+        padding: 8px; 
+    }
+
+    .clienteleSection h3{
+        font-size: 4.8rem;
+    }
+    .clienteleSection p{
+        font-size: 1.4rem;
+    }
+ }
+
+
+
+ @media (min-width: 1400px) and (max-width: 1600px){
+    .clienteleSection{
+        height: 800px;
+    }
+
+
+    .imgLogo{
+        width: 200px;
+        height: 160px;
+    }
+
+
+    .imgCont{
+        padding: 28px;
+    }
+    .clienteleSection h3{
+        font-family: PopinMed;
+        font-size: 6.1rem;
+        padding-top: 90px;
+    }
+    .clienteleSection p{
+        font-family: PopinsLight;
+        font-size: 2.2rem;
+    }
+ }
+
+ @media (min-width: 1601px) { 
+    .clienteleSection{
+        height: 800px;
+    }
+
+    
+    .csContainer{
+        max-width: 1642px;
+    }
+
+    .imgLogo{
+        width: 220px;
+        height: 160px;
+    }
+
+
+    .imgCont{
+        padding: 32px;
+    }
+}
+
+ 
+
+ .logoContainer{
+     box-shadow: 0 13px 40px rgba(0,0,0,0.09);
+ }
+
+ .certificationsSection{
+     height: 340px;
+ }
+
+ .certificationRow{
+    height: 200px;
+ }
+
+ .certificationHeading{
+    font-family: PopinMed;
+    font-size: 61px;
+     text-align: start;
+ }
+ .certificationPara{
+    font-family: PopinsLight;
+    font-size: 22px;
+     text-align: start;
+ }
+
+
+ 
+
+ @media (min-width: 1400px) { 
+    .certificationRow{
+        height: 320px;
+     }
+     .certifSec{
+         max-width: 1642px;
+     }
+ }
