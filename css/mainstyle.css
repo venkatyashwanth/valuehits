@@ -819,13 +819,13 @@ Responsive Breakpoints:-
      box-shadow: 0 13px 40px rgba(0,0,0,0.09);
  }
 
- .certificationsSection{
+ /* .certificationsSection{
      height: 340px;
- }
+ } */
 
- .certificationRow{
+ /* .certificationRow{
     height: 200px;
- }
+ } */
 
  .certificationHeading{
     font-family: PopinMed;
@@ -838,8 +838,79 @@ Responsive Breakpoints:-
      text-align: start;
  }
 
+ @media (max-width: 575.98px){
+    .certificationRow{
+        height: 260px;
+     }
+     .certificationHeading{
+        font-size: 3.6rem;
+        text-align: center;
+     }
+     .certificationPara{
+        font-size: 1.2rem;
+        text-align: center;
+     }
+     .googlePartnerImg{
+         width: 200px;
+         margin: auto;
+     }
+ }
 
- 
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .certificationRow{
+        height: 260px;
+     }
+     .certificationHeading{
+        font-size: 4.2rem;
+        text-align: center;
+     }
+     .certificationPara{
+        font-size: 1.4rem;
+        text-align: center;
+     }
+     .googlePartnerImg{
+         width: 200px;
+         margin: auto;
+     }
+ }
+
+
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .certificationRow{
+        height: 280px;
+     }
+     .certificationHeading{
+        font-size: 4.8rem;
+     }
+     .certificationPara{
+        font-size: 1.6rem;
+     }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px){
+    .certificationRow{
+        height: 320px;
+     }
+     .certificationHeading{
+        font-size: 5rem;
+     }
+     .certificationPara{
+        font-size: 1.6rem;
+     }
+ }
+
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .certificationRow{
+        height: 320px;
+     }
+     .certificationHeading{
+        font-size: 5.2rem;
+     }
+     .certificationPara{
+        font-size: 1.8rem;
+     }
+ }
 
  @media (min-width: 1400px) { 
     .certificationRow{
@@ -849,3 +920,692 @@ Responsive Breakpoints:-
          max-width: 1642px;
      }
  }
+
+ .benfitCont{
+    background-color: #F43535;
+ }
+
+.benfitContHeading{
+    font-family: PopinsLight;
+}
+.benfitContIcon a{
+    text-decoration: none;
+}
+
+
+@media (max-width: 575.98px){
+    .benfitContHeading{
+        font-size: 1.6rem;
+    }
+    .benfitContIcon{
+        font-size: 1.6rem;
+        padding: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .benfitContHeading{
+        font-size: 2.2rem;
+    }
+    .benfitContIcon{
+        font-size: 2.2rem;
+        padding: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .benfitContHeading{
+        font-size: 3.0rem;
+    }
+    .benfitContIcon{
+        font-size: 3.0rem;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .benfitContHeading{
+        font-size: 3.2rem;
+    }
+    .benfitContIcon{
+        font-size: 3.2rem;
+        padding: 22px;
+    }
+}
+
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .benfitContHeading{
+        font-size: 3.2rem;
+    }
+    .benfitContIcon{
+        font-size: 3.2rem;
+        padding: 24px;
+    }
+ }
+
+ @media (min-width: 1400px){
+    .benfitContHeading{
+        font-size: 4.1rem;
+    }
+    .benfitContIcon{
+        font-size: 4.1rem;
+        padding: 26px;
+    }
+ }
+
+ 
+
+ 
+ /* ------------------------------------- */
+ .globalPresenceSection{
+    background-image: url('../images/globalPresenceBg.png');
+    background-size: cover;
+}
+.globalContText h3{
+    font-family: PopinMed;
+}
+
+.globalContText p{
+    font-family: PopinsLight;
+}
+
+.addressCard h4{
+    font-family: PopinMed;
+}
+
+.addressCard p, ul{
+    font-family: PopinsLight;
+}
+
+.addressCard ul{
+    list-style-type: none;
+}
+
+.addressCard ul li{
+    color: #000000;
+}
+
+@media (max-width: 575.98px){
+    .globalPresenceSection{
+        height: 520px;
+    }
+    .gpContainer{
+        width: 100%;
+    }
+
+    .globalContText{
+        padding: 2.2rem;
+    }
+    
+    .globalContText h3{
+        font-size: 2.4rem;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .globalContText p{
+        font-size: 1.2rem;
+    }
+
+    .addressCard{
+        padding: 5px;
+    }
+
+    .addressCard h4{
+        font-size: 1.2rem;
+    }
+
+    .addressCard p, ul{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .globalPresenceSection{
+        height: 620px;
+    }
+    .gpContainer{
+        width: 100%;
+    }
+
+    .globalContText{
+        padding: 2.6rem;
+    }
+    
+    .globalContText h3{
+        font-size: 2.8rem;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .globalContText p{
+        font-size: 1.4rem;
+    }
+
+    .addressCard{
+        padding: 20px;
+    }
+
+    .addressCard h4{
+        font-size: 1.6rem;
+    }
+
+    .addressCard p, ul{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .globalPresenceSection{
+        height: 680px;
+    }
+    .gpContainer{
+        width: 100%;
+    }
+
+    .globalContText{
+        padding: 2.6rem;
+    }
+    
+    .globalContText h3{
+        font-size: 2.8rem;
+        padding-top: 10px;
+        padding-bottom: 92px;
+    }
+
+    .globalContText p{
+        font-size: 1.4rem;
+    }
+
+    .addressCard{
+        padding: 30px;
+    }
+
+    .addressCard h4{
+        font-size: 1.6rem;
+    }
+
+    .addressCard p, ul{
+        font-size: 1.4rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .globalPresenceSection{
+        height: 780px;
+    }
+    .gpContainer{
+        width: 100%;
+    }
+
+    .globalContText{
+        padding: 3.6rem;
+    }
+    
+    .globalContText h3{
+        font-size: 3.8rem;
+        padding-top: 30px;
+        padding-bottom: 92px;
+    }
+
+    .globalContText p{
+        font-size: 1.6rem;
+    }
+
+    .addressCard{
+        padding: 60px;
+    }
+
+    .addressCard h4{
+        font-size: 2.0rem;
+    }
+
+    .addressCard p, ul{
+        font-size: 1.6rem;
+    }
+}
+
+
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .globalPresenceSection{
+        height: 910px;
+    }
+    .gpContainer{
+        width: 100%;
+    }
+
+    .globalContText{
+        padding: 4rem;
+    }
+    
+    .globalContText h3{
+        font-size: 4rem;
+        padding-top: 30px;
+        padding-bottom: 92px;
+    }
+
+    .globalContText p{
+        font-size: 1.8rem;
+    }
+
+    .addressCard{
+        padding: 60px;
+    }
+
+    .addressCard h4{
+        font-size: 2.4rem;
+    }
+
+    .addressCard p, ul{
+        font-size: 1.8rem;
+    }
+ }
+
+
+
+ @media (min-width: 1400px){
+    .globalPresenceSection{
+        height: 997px;
+    }
+    .gpContainer{
+        max-width: 1630px;
+    }
+
+    .globalContText{
+        padding: 62px;
+    }
+    
+    .globalContText h3{
+        font-size: 61px;
+        padding-top: 30px;
+        padding-bottom: 102px;
+    }
+
+    .globalContText p{
+        font-size: 22px;
+    }
+
+    .addressCard{
+        padding: 102px;
+    }
+
+    .addressCard h4{
+        font-size: 30px;
+    }
+
+    .addressCard p, ul{
+        font-size: 22px;
+    }
+ } 
+
+ 
+/* ----------------------------------- */
+
+.newsBlogSection h5{
+    font-family: PopinMed;
+    color: #EA3A3A;
+}
+.newsBlogSection p{
+    font-family: PopinsExtraLight;
+}
+
+.secondcard .card-text a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.secondcard .card-text p{
+    font-family: PopinsLight;
+}
+
+@media (max-width: 575.98px){
+    .newsBlogSection h5{
+        font-size: 1.8rem;
+        padding-top: 60px;
+    }
+    .newsBlogSection > p{
+        font-size: 2rem;
+    }
+    .blogContainer{
+        width: 100%;
+        max-width: 320px;
+    }
+    .secondcard .card{
+        height: 380px;
+    }
+    .secondcard .card-text{
+        width: 80%;
+        margin: auto;
+        height: 120px;
+    }
+    .secondcard .card-text p{
+        font-size: 1.4rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .secondcard  .card-text a{
+        padding-bottom: 10px;
+    } 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .newsBlogSection h5{
+        font-size: 2rem;
+        padding-top: 60px;
+    }
+    .newsBlogSection > p{
+        font-size: 2.8rem;
+    }
+    .blogContainer{
+        width: 100%;
+        max-width: 760px;
+    }
+    .secondcard .card{
+        height: 460px;
+    }
+    .secondcard .card-text{
+        width: 80%;
+        margin: auto;
+        height: 160px;
+    }
+    .secondcard .card-text p{
+        font-size: 1.4rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .secondcard  .card-text a{
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .newsBlogSection h5{
+        font-size: 2rem;
+        padding-top: 60px;
+    }
+    .newsBlogSection > p{
+        font-size: 3.2rem;
+    }
+    .blogContainer{
+        width: 100%;
+        max-width: 980px;
+    }
+    .secondcard .card{
+        height: 480px;
+    }
+    .secondcard .card-text{
+        width: 80%;
+        margin: auto;
+        height: 180px;
+    }
+    .secondcard .card-text p{
+        font-size: 1.6rem;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .secondcard  .card-text a{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .newsBlogSection h5{
+        font-size: 2.4rem;
+        padding-top: 60px;
+    }
+    .newsBlogSection > p{
+        font-size: 4.4rem;
+    }
+    .blogContainer{
+        width: 100%;
+        max-width: 1324px;
+    }
+    .secondcard .card{
+        height: 375px;
+    }
+    .secondcard .card-text{
+        width: 80%;
+        margin: auto;
+        height: 210px;
+    }
+    .secondcard .card-text p{
+        font-size: 1.6rem;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .secondcard .card-text a{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .newsBlogSection{
+        height: 1040px;
+    }
+    .newsBlogSection h5{
+        font-size: 2.8rem;
+        padding-top: 60px;
+    }
+    .newsBlogSection > p{
+        font-size: 4.8rem;
+    }
+    .blogContainer{
+        width: 100%;
+        max-width: 1324px;
+    }
+    .secondcard  .card{
+        height: 480px;
+    }
+    .secondcard .card-text{
+        width: 80%;
+        margin: auto;
+        height: 210px;
+    }
+    .secondcard .card-text p{
+        font-size: 1.8rem;
+        padding-bottom: 30px;
+    }
+    .secondcard .card-text a{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 1400px){
+    .newsBlogSection{
+        height: 1192px;
+    }
+    
+    .newsBlogSection h5{
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .newsBlogSection > p{
+        font-size: 50px;
+    }
+    .blogContainer{
+        width: 100%;
+        max-width: 1724px;
+    }
+    .secondcard .card{
+        height: 526px;
+    }
+    .secondcard .card-text{
+        width: 80%;
+        margin: auto;
+        height: 200px;
+    }
+    .secondcard .card-text > p{
+        font-family: PopinsLight;
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+    .secondcard .card-text >a{
+        padding-bottom: 20px;
+    }
+}
+
+/* ------------------ */
+
+.formCont h5{
+    font-family: PopinMed;
+    color: red;
+    text-align: center;
+}
+
+.formCont p{
+    font-family: PopinsExtraLight;
+    color: white;
+}
+
+.inputItem2{
+    font-family: PopinSBold;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.inputItem2:hover{
+    color: white;
+}
+
+.inputItem-f2{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: PopinReg;
+    color: white;
+}
+
+
+.inputItem-f2:focus-visible{
+    background-color: transparent;
+    font-family: PopinReg;
+    color: white;
+}
+
+.inputItem-f2::placeholder{
+    font-family: PopinReg;
+    color: white;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .formSect{
+        position: relative;
+    }
+    .formCont{
+        width: 100%;
+        max-width: 1324px;
+        background-color: black;
+        height: 400px;
+        position: absolute;
+        top: -200px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 60px;
+    }
+    .formCont h5{
+        font-size: 2rem;
+    }
+
+    .formCont p{
+        font-size: 4rem;
+    }
+    .formBox{
+        padding-top: 70px;
+        height: 200px;
+    }
+    .inputItem2{
+        font-size: 2.2rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: red;
+    }
+    .inputItem2:hover{
+        color: white;
+    }
+    .inputItem-f2{
+        font-size: 2.2rem;
+    }
+    
+    .inputItem-f2:focus-visible{
+        font-size: 2.2rem;
+    }
+    .inputItem-f2::placeholder{
+        font-size: 2.2rem;
+    }
+
+}
+
+
+@media (min-width: 1400px){
+    .formSect{
+        position: relative;
+    }
+    .formCont{
+        width: 100%;
+        max-width: 1724px;
+        background-color: black;
+        height: 668px;
+        position: absolute;
+        top: -334px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 86px;
+    }
+    .formCont h5{
+        font-size: 30px;
+    }
+
+    .formCont p{
+        font-size: 50px;
+    }
+    .formBox{
+        padding-top: 125px;
+        height: 300px;
+    }
+    .inputItem2{
+        font-size: 3rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: red;
+    }
+    .inputItem2:hover{
+        color: white;
+    }
+    .inputItem-f2{
+        font-size: 2.2rem;
+    }
+    
+    .inputItem-f2:focus-visible{
+        font-size: 2.2rem;
+    }
+    .inputItem-f2::placeholder{
+        font-size: 2.2rem;
+    }
+}
+
+
+
+
+
+ /* 
+Responsive Breakpoints:- 
+
+@media (max-width: 575.98px){}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px){}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1400px){}
+*/
