@@ -135,7 +135,7 @@ html{
     font-size: 5rem;
 }
 
-.galleryText h3{
+.galleryText h1{
     font-family: PopinSBold;
     font-size: 6.4rem;
 }
@@ -145,7 +145,7 @@ html{
     .galleryText p{
         font-size: 1rem;
     }
-    .galleryText h3{
+    .galleryText h1{
         font-size: 1.4rem;
     }
 }
@@ -154,7 +154,7 @@ html{
     .galleryText p{
         font-size: 1.5rem;
     }
-    .galleryText h3{
+    .galleryText h1{
         font-size: 2.8rem;
     }
 }   
@@ -164,7 +164,7 @@ html{
     .galleryText p{
         font-size: 2rem;
     }
-    .galleryText h3{
+    .galleryText h1{
         font-size: 3.5rem;
     }
 }
@@ -1225,7 +1225,7 @@ Responsive Breakpoints:-
     }
 
     .addressCard{
-        padding: 102px;
+        padding: 92px;
     }
 
     .addressCard h4{
@@ -1267,7 +1267,8 @@ Responsive Breakpoints:-
     }
     .blogContainer{
         width: 100%;
-        max-width: 320px;
+        max-width: 420px;
+        margin-bottom: 220px;
     }
     .secondcard .card{
         height: 380px;
@@ -1298,6 +1299,7 @@ Responsive Breakpoints:-
     .blogContainer{
         width: 100%;
         max-width: 760px;
+        margin-bottom: 220px;
     }
     .secondcard .card{
         height: 460px;
@@ -1328,6 +1330,7 @@ Responsive Breakpoints:-
     .blogContainer{
         width: 100%;
         max-width: 980px;
+        margin-bottom: 260px;
     }
     .secondcard .card{
         height: 480px;
@@ -1357,7 +1360,7 @@ Responsive Breakpoints:-
     }
     .blogContainer{
         width: 100%;
-        max-width: 1324px;
+        margin-bottom: 260px;
     }
     .secondcard .card{
         height: 375px;
@@ -1378,9 +1381,9 @@ Responsive Breakpoints:-
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    .newsBlogSection{
+    /* .newsBlogSection{
         height: 1040px;
-    }
+    } */
     .newsBlogSection h5{
         font-size: 2.8rem;
         padding-top: 60px;
@@ -1391,6 +1394,7 @@ Responsive Breakpoints:-
     .blogContainer{
         width: 100%;
         max-width: 1324px;
+        margin-bottom: 260px;
     }
     .secondcard  .card{
         height: 480px;
@@ -1486,34 +1490,83 @@ Responsive Breakpoints:-
     color: white;
 }
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+@media (max-width: 575.98px){
     .formSect{
         position: relative;
     }
     .formCont{
         width: 100%;
-        max-width: 1324px;
+        max-width: 420px;
         background-color: black;
-        height: 400px;
         position: absolute;
-        top: -200px;
+        top: -12%;
         left: 50%;
-        transform: translateX(-50%);
-        padding: 60px;
+        transform: translate(-50%,-25%);
+        padding: 24px;
     }
     .formCont h5{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .formCont p{
-        font-size: 4rem;
+        font-size: 1.8rem;
     }
     .formBox{
-        padding-top: 70px;
-        height: 200px;
+        padding-top: 10px;
+        height: 140px;
     }
     .inputItem2{
-        font-size: 2.2rem;
+        font-size: 1.2rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: red;
+    }
+    .inputItem2:hover{
+        color: white;
+    }
+    .inputItem-f2{
+        font-size: 1.2rem;
+    }
+    
+    .inputItem-f2:focus-visible{
+        font-size: 1.2rem;
+    }
+    .inputItem-f2::placeholder{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .formSect{
+        position: relative;
+    }
+    .formCont{
+        width: 100%;
+        max-width: 760px;
+        background-color: black;
+        position: absolute;
+        top: -8%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        padding: 32px;
+    }
+    .formCont h5{
+        font-size: 1.8rem;
+    }
+
+    .formCont p{
+        font-size: 2.8rem;
+    }
+    .formBox{
+        padding-top: 40px;
+        height: 140px;
+    }
+    .inputItem2{
+        font-size: 1.2rem;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
@@ -1526,16 +1579,164 @@ Responsive Breakpoints:-
         color: white;
     }
     .inputItem-f2{
-        font-size: 2.2rem;
+        font-size: 1.2rem;
     }
     
     .inputItem-f2:focus-visible{
-        font-size: 2.2rem;
+        font-size: 1.2rem;
     }
     .inputItem-f2::placeholder{
-        font-size: 2.2rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .formSect{
+        position: relative;
+    }
+    .formCont{
+        width: 100%;
+        max-width: 980px;
+        background-color: black;
+        position: absolute;
+        top: -8%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        padding: 36px;
+    }
+    .formCont h5{
+        font-size: 1.8rem;
     }
 
+    .formCont p{
+        font-size: 3.2rem;
+    }
+    .formBox{
+        padding-top: 60px;
+        height: 160px;
+    }
+    .inputItem2{
+        font-size: 1.4rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: red;
+    }
+    .inputItem2:hover{
+        color: white;
+    }
+    .inputItem-f2{
+        font-size: 1.4rem;
+    }
+    
+    .inputItem-f2:focus-visible{
+        font-size: 1.4rem;
+    }
+    .inputItem-f2::placeholder{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .formSect{
+        position: relative;
+    }
+    .formCont{
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: -8%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        padding: 40px;
+    }
+    .formCont h5{
+        font-size: 1.8rem;
+    }
+
+    .formCont p{
+        font-size: 3.2rem;
+    }
+    .formBox{
+        padding-top: 60px;
+        height: 160px;
+    }
+    .inputItem2{
+        font-size: 1.4rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: red;
+    }
+    .inputItem2:hover{
+        color: white;
+    }
+    .inputItem-f2{
+        font-size: 1.4rem;
+    }
+    
+    .inputItem-f2:focus-visible{
+        font-size: 1.4rem;
+    }
+    .inputItem-f2::placeholder{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .formSect{
+        position: relative;
+    }
+    .formCont{
+        width: 100%;
+        max-width: 1324px;
+        background-color: black;
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: translate(-50%,-25%);
+        padding: 60px;
+    }
+    .formCont h5{
+        font-size: 2rem;
+    }
+
+    .formCont p{
+        font-size: 3.6rem;
+    }
+    .formBox{
+        padding-top: 70px;
+        height: 200px;
+    }
+    .inputItem2{
+        font-size: 1.8rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: red;
+    }
+    .inputItem2:hover{
+        color: white;
+    }
+    .inputItem-f2{
+        font-size: 1.8rem;
+    }
+    
+    .inputItem-f2:focus-visible{
+        font-size: 1.8rem;
+    }
+    .inputItem-f2::placeholder{
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -1547,11 +1748,9 @@ Responsive Breakpoints:-
         width: 100%;
         max-width: 1724px;
         background-color: black;
-        height: 668px;
         position: absolute;
-        top: -334px;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50%,-50%);
         padding: 86px;
     }
     .formCont h5{
@@ -1590,7 +1789,201 @@ Responsive Breakpoints:-
     }
 }
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+.serviceDetails{
+    background-color: #E2E7EA;
+}
+.footerAddress{
+    font-family: PopinsLight;
+}
+
+.footerSocialIcons{
+    list-style-type: none;
+}
+
+.footerSocialIcons li a{
+    text-decoration: none;
+}
+
+
+.linkDivisions p{
+    font-family: PopinReg;
+    color: #000000;
+}
+
+.linkDivisions, .linkDivisions1{
+    border-right: 1px dashed black; 
+}
+
+.linkDivisions1 .boldPara{
+    font-family: PopinSBold;
+    color: #000000;
+}
+
+.linkDivisions2 p{
+    font-family: PopinReg;
+    color: #000000;
+}
+
+.linkDivisions ul,.linkDivisions1 ul, .linkDivisions2 ul{
+    list-style-type: none;
+}
+
+
+.linkDivisions ul li a, .linkDivisions1 ul li a, .linkDivisions2 ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: PopinReg;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .detailsCont{
+        padding-top: 320px;
+        padding-bottom: 60px;
+        max-width: 1340px;
+    }
+
+    .footerAddress{
+        font-size: 14px;
+        padding-top: 60px;
+        max-width: 300px;
+        line-height: 30px;
+    }
+
+    .footerSocialIcons{
+        padding-top: 82px;
+    }
+
+    .footerSocialIcons li a{
+        font-size: 24px;
+        padding-right: 30px;
+    }
+
+    .linkDivisions p{
+        font-size: 24px;
+        padding-right: 40px;
+    }
+
+    .linkDivisions ul li a, .linkDivisions1 ul li a{
+        font-size: 14px;
+    }
+
+    .linkDivisions2 ul li a{
+        font-size: 14px;
+    }
+
+    .linkDivisions1 .boldPara{
+        font-size: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .linkDivisions1 ul{
+        padding-top: 56px;
+        padding-left: 20px;
+    }
+
+    .linkDivisions1 .semExp{
+        max-width: 200px;
+    }
+
+    
+
+    .linkDivisions2 p{
+        font-size: 24px;
+        padding-left: 36.5px;
+    }
+
+    .linkDivisions2 ul{
+        padding-top: 38px;
+        padding-left: 30px;
+    }
+
+    .linkDivisions ul{
+        padding-top: 38px;
+    }
+
+    .linkDivisions ul li, .linkDivisions1 ul li,.linkDivisions1 .semExp li, .linkDivisions2 ul li{
+        line-height: 42px;
+    }
+
+    
+    
+}
+
+@media (min-width: 1400px){
+    .detailsCont{
+        padding-top: 438px;
+        padding-bottom: 77px;
+        max-width: 1724px;
+    }
+
+    .footerAddress{
+        font-size: 18px;
+        padding-top: 60px;
+        max-width: 300px;
+        line-height: 30px;
+    }
+
+    .footerSocialIcons{
+        padding-top: 82px;
+    }
+
+    .footerSocialIcons li a{
+        font-size: 30px;
+        padding-right: 30px;
+    }
+
+
+    .linkDivisions p{
+        font-size: 30px;
+        padding-right: 52px;
+    }
+
+    .linkDivisions1 .boldPara{
+        font-size: 26px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .linkDivisions1 ul{
+        padding-top: 56px;
+        padding-left: 20px;
+    }
+
+    .linkDivisions1 .semExp{
+        max-width: 200px;
+    }
+
+    .linkDivisions2 ul li a{
+        font-size: 18px;
+    }
+
+    .linkDivisions2 p{
+        font-size: 30px;
+        padding-left: 36.5px;
+    }
+
+    .linkDivisions2 ul{
+        padding-top: 38px;
+        padding-left: 30px;
+    }
+
+    .linkDivisions ul{
+        padding-top: 38px;
+    }
+
+    .linkDivisions ul li, .linkDivisions1 ul li,.linkDivisions1 .semExp li, .linkDivisions2 ul li{
+        line-height: 54px;
+    }
+
+    .linkDivisions ul li a, .linkDivisions1 ul li a{
+        font-size: 18px;
+    }
+}
 
 
 
