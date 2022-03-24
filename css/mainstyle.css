@@ -265,9 +265,9 @@ html{
 }
 
 .inputItem1:hover{
-    color: white;
+    background-color: red;
+    color: black;
 }
-
 
 .inputItem:focus-visible{
     background-color: transparent;
@@ -303,7 +303,7 @@ html{
         text-decoration: none;
     }
     .inputItem1:hover{
-        color: white;
+        color: black;
     }
 }
 
@@ -331,7 +331,7 @@ html{
         text-decoration: none;
     }
     .inputItem1:hover{
-        color: white;
+        color: black;
     }
 }   
 
@@ -355,7 +355,8 @@ html{
         text-align: start;
     }
     .inputItem1:hover{
-        color: white;
+        color: black;
+        transition: 1s;
     }
 }   
 
@@ -658,23 +659,6 @@ html{
     background-color: white;
     
 }
-
-/* 
-Responsive Breakpoints:- 
-
-@media (max-width: 575.98px){}
-
-@media (min-width: 576px) and (max-width: 767.98px) {}
-
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-@media (min-width: 992px) and (max-width: 1199.98px){}
-
-@media (min-width: 1200px) and (max-width: 1399.98px) {}
-
-@media (min-width: 1400px){} 
-*/
-
 
 @media (max-width: 575.98px) { 
     .clienteleSection{
@@ -1478,6 +1462,15 @@ Responsive Breakpoints:-
     color: white;
 }
 
+.inputItem2{
+    text-align: center;
+    background-color: red;
+}
+.inputItem2:hover{
+    background-color: blue;
+    transition: 1s;
+}
+
 
 .inputItem-f2:focus-visible{
     background-color: transparent;
@@ -1499,7 +1492,7 @@ Responsive Breakpoints:-
         max-width: 420px;
         background-color: black;
         position: absolute;
-        top: -12%;
+        top: -4%;
         left: 50%;
         transform: translate(-50%,-25%);
         padding: 24px;
@@ -1546,10 +1539,10 @@ Responsive Breakpoints:-
     }
     .formCont{
         width: 100%;
-        max-width: 760px;
+        max-width: 720px;
         background-color: black;
         position: absolute;
-        top: -8%;
+        top: -5%;
         left: 50%;
         transform: translate(-50%,-25%);
         padding: 32px;
@@ -1596,7 +1589,7 @@ Responsive Breakpoints:-
     }
     .formCont{
         width: 100%;
-        max-width: 980px;
+        max-width: 910px;
         background-color: black;
         position: absolute;
         top: -8%;
@@ -1675,8 +1668,12 @@ Responsive Breakpoints:-
         background-color: red;
     }
     .inputItem2:hover{
-        color: white;
+        background-color: blue;
+        color: black;
+        transition: 1s;
     }
+
+
     .inputItem-f2{
         font-size: 1.4rem;
     }
@@ -1837,6 +1834,279 @@ Responsive Breakpoints:-
     font-family: PopinReg;
 }
 
+@media (max-width: 575.98px){
+    .linkDivisions, .linkDivisions1, .linkDivisions2{
+        border: none;
+        border-top: 1px dashed black;
+        
+    }
+
+    .detailsCont{
+        padding-top: 160px;
+        padding-bottom: 20px;
+    }
+
+    .footerAddress{
+        font-size: 12px;
+        padding-top: 20px;
+        max-width: 280px;
+        line-height: 30px;
+    }
+
+    .footerSocialIcons{
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+    .footerSocialIcons li a{
+        font-size: 18px;
+        padding-right: 28px;
+    }
+
+    .linkDivisions, .linkDivisions1, .linkDivisions2{
+        text-align: center;
+    }
+    .linkDivisions p{
+        font-size: 16px;
+        padding-top: 28px;
+    }
+
+    .linkDivisions ul li a, .linkDivisions1 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions2 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions1 .boldPara{
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    .linkDivisions ul, .linkDivisions1 ul, .linkDivisions2 ul{
+        padding-top: 12px;
+    }
+    
+
+    .linkDivisions2 p{
+        font-size: 16px;
+        padding-top: 28px;
+    }
+
+
+    .linkDivisions ul li, .linkDivisions1 ul li,.linkDivisions1 .semExp li, .linkDivisions2 ul li{
+        line-height: 42px;
+    }
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .linkDivisions, .linkDivisions1, .linkDivisions2{
+        border: none;
+        border-top: 1px dashed black;
+        
+    }
+
+    .detailsCont{
+        padding-top: 160px;
+        padding-bottom: 20px;
+    }
+
+    .footerAddress{
+        font-size: 12px;
+        padding-top: 20px;
+        max-width: 280px;
+        line-height: 30px;
+    }
+
+    .footerSocialIcons{
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+    .footerSocialIcons li a{
+        font-size: 18px;
+        padding-right: 28px;
+    }
+
+    .linkDivisions, .linkDivisions1, .linkDivisions2{
+        text-align: center;
+    }
+    .linkDivisions p{
+        font-size: 16px;
+        padding-top: 28px;
+    }
+
+    .linkDivisions ul li a, .linkDivisions1 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions2 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions1 .boldPara{
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    .linkDivisions ul, .linkDivisions1 ul, .linkDivisions2 ul{
+        padding-top: 12px;
+    }
+    
+
+    .linkDivisions2 p{
+        font-size: 16px;
+        padding-top: 28px;
+    }
+
+
+    .linkDivisions ul li, .linkDivisions1 ul li,.linkDivisions1 .semExp li, .linkDivisions2 ul li{
+        line-height: 42px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .detailsCont{
+        padding-top: 180px;
+        padding-bottom: 20px;
+        max-width: 1120px;
+    }
+
+    .footerAddress{
+        font-size: 12px;
+        padding-top: 20px;
+        max-width: 280px;
+        line-height: 30px;
+    }
+
+    .footerSocialIcons{
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+    .footerSocialIcons li a{
+        font-size: 18px;
+        padding-right: 28px;
+    }
+
+    .linkDivisions p{
+        font-size: 16px;
+        padding-right: 28px;
+    }
+
+    .linkDivisions ul li a, .linkDivisions1 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions2 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions1 .boldPara{
+        font-size: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .linkDivisions1 ul{
+        padding-top: 26px;
+        padding-left: 10px;
+    }
+
+    .linkDivisions1 .semExp{
+        max-width: 200px;
+    }
+    .linkDivisions2 p{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+
+    .linkDivisions2 ul{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .linkDivisions ul{
+        padding-top: 16px;
+    }
+
+    .linkDivisions ul li, .linkDivisions1 ul li,.linkDivisions1 .semExp li, .linkDivisions2 ul li{
+        line-height: 42px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .detailsCont{
+        padding-top: 280px;
+        padding-bottom: 40px;
+        max-width: 938px;
+    }
+
+    .footerAddress{
+        font-size: 12px;
+        padding-top: 40px;
+        max-width: 300px;
+        line-height: 30px;
+    }
+
+    .footerSocialIcons{
+        padding-top: 62px;
+    }
+
+    .footerSocialIcons li a{
+        font-size: 18px;
+        padding-right: 28px;
+    }
+
+    .linkDivisions p{
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .linkDivisions ul li a, .linkDivisions1 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions2 ul li a{
+        font-size: 12px;
+    }
+
+    .linkDivisions1 .boldPara{
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .linkDivisions1 ul{
+        padding-top: 42px;
+        padding-left: 10px;
+    }
+
+    .linkDivisions1 .semExp{
+        max-width: 200px;
+    }
+    .linkDivisions2 p{
+        font-size: 16px;
+        padding-left: 24px;
+    }
+
+    .linkDivisions2 ul{
+        padding-top: 38px;
+        padding-left: 30px;
+    }
+
+    .linkDivisions ul{
+        padding-top: 38px;
+    }
+
+    .linkDivisions ul li, .linkDivisions1 ul li,.linkDivisions1 .semExp li, .linkDivisions2 ul li{
+        line-height: 42px;
+    }
+}
+
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     .detailsCont{
         padding-top: 320px;
@@ -1878,8 +2148,6 @@ Responsive Breakpoints:-
         padding-left: 10px;
         padding-right: 10px;
     }
-
-
     .linkDivisions1 ul{
         padding-top: 56px;
         padding-left: 20px;
@@ -1888,9 +2156,6 @@ Responsive Breakpoints:-
     .linkDivisions1 .semExp{
         max-width: 200px;
     }
-
-    
-
     .linkDivisions2 p{
         font-size: 24px;
         padding-left: 36.5px;
@@ -1908,16 +2173,13 @@ Responsive Breakpoints:-
     .linkDivisions ul li, .linkDivisions1 ul li,.linkDivisions1 .semExp li, .linkDivisions2 ul li{
         line-height: 42px;
     }
-
-    
-    
 }
 
 @media (min-width: 1400px){
     .detailsCont{
         padding-top: 438px;
         padding-bottom: 77px;
-        max-width: 1724px;
+        max-width: 1840px;
     }
 
     .footerAddress{
@@ -1984,6 +2246,31 @@ Responsive Breakpoints:-
         font-size: 18px;
     }
 }
+
+.copyrightSec p{
+    font-family: PopinReg;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 30px
+}
+
+@media (max-width: 575.98px){
+    .copyrightSec p{
+        font-size: 12px;
+        margin-top: 24px;
+        margin-bottom: 30px
+    }
+}
+
+@media (min-width: 1400px){
+    .copyrightSec p{
+        font-family: PopinReg;
+        font-size: 18px;
+        margin-top: 42px;
+        margin-bottom: 60px
+    }
+}
+
 
 
 
